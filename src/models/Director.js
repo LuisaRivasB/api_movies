@@ -14,11 +14,11 @@ const Director = sequelize.define('Director', {
         type: DataTypes.STRING,
         allowNull: false
     },
-    Image: {
+    image: {
         type: DataTypes.TEXT,
         allowNull: false
     },
-    bitrhday: {
+    birthday: {
         type: DataTypes.STRING,
         allowNull: false
     }
